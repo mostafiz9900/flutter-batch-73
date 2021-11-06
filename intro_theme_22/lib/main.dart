@@ -22,13 +22,15 @@ ThemeData _buildAppTheme() {
 TextTheme _buildTextTheme(TextTheme base) {
   return base.copyWith(
     bodyText1: base.bodyText1?.copyWith(
-      fontSize:10.0 
+      fontSize:20.0 
     ),
     bodyText2: base.bodyText2?.copyWith(
       fontSize:50.0 ,
       fontWeight: FontWeight.bold,
-      color: Colors.red.shade100
-    ),
+      color: Colors.red.shade100,
+     
+    )
+    
     
 
   );
@@ -69,6 +71,9 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Hello Flutter'),
+            Text('A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. ... One of the most important of these is a topic sentence.',
+            style: Theme.of(context).textTheme.bodyText1,
+            ),
             SizedBox(
               height: 30.0,
             ),

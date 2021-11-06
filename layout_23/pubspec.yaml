@@ -1,4 +1,4 @@
-name: intro_theme_22
+name: layout_23
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -74,10 +74,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  #   - family: fonts/Schyler-Italic.ttf
+  #   - family: Schyler
   #     fonts:
-  #       - asset: fonts/Schyler-Italic.ttf
-
+  #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
